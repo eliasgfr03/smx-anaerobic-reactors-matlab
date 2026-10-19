@@ -1,0 +1,2612 @@
+{
+  "schemaVersion": "JWPE_PL_METHOD_RECIPES_v1",
+  "model": "M1_FIXED",
+  "cases": [
+    {
+      "AbsTol": 1e-07,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-07,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 1,
+      "fixedKd": 0.02,
+      "fixedValue": 0.02,
+      "freeIndices": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "CS_A00",
+      "lower": [
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "Kd",
+      "reactor": "CS",
+      "recheckToleranceNLL": 0.0005,
+      "role": "ANCHOR_SEARCH",
+      "seed": 1318722289.0,
+      "upper": [
+        6.25,
+        2,
+        60,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-07,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-07,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 2,
+      "fixedKd": 0.02,
+      "fixedValue": 1.57492906931591,
+      "freeIndices": [
+        3,
+        4,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "CS_KB_LP",
+      "lower": [
+        0.03,
+        10,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "kb",
+      "reactor": "CS",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 357554146.0,
+      "upper": [
+        2,
+        60,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-07,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-07,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 2,
+      "fixedKd": 0.02,
+      "fixedValue": 3.28221696923233,
+      "freeIndices": [
+        3,
+        4,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "CS_KB_UP",
+      "lower": [
+        0.03,
+        10,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "kb",
+      "reactor": "CS",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 1651800447.0,
+      "upper": [
+        2,
+        60,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-07,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-07,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 2,
+      "fixedKd": 0.02,
+      "fixedValue": 4.65196298343279,
+      "freeIndices": [
+        3,
+        4,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "CS_KB_US",
+      "lower": [
+        0.03,
+        10,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "kb",
+      "reactor": "CS",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 443440448.0,
+      "upper": [
+        2,
+        60,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-07,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-07,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 3,
+      "fixedKd": 0.02,
+      "fixedValue": 0.0724239443875704,
+      "freeIndices": [
+        2,
+        4,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "CS_KG_LP",
+      "lower": [
+        0,
+        10,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "kG",
+      "reactor": "CS",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 1219521661.0,
+      "upper": [
+        6.25,
+        60,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-07,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-07,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 3,
+      "fixedKd": 0.02,
+      "fixedValue": 0.190504226412603,
+      "freeIndices": [
+        2,
+        4,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "CS_KG_UP",
+      "lower": [
+        0,
+        10,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "kG",
+      "reactor": "CS",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 1921737645.0,
+      "upper": [
+        6.25,
+        60,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-07,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-07,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 3,
+      "fixedKd": 0.02,
+      "fixedValue": 0.0528436623625379,
+      "freeIndices": [
+        2,
+        4,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "CS_KG_LS",
+      "lower": [
+        0,
+        10,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "kG",
+      "reactor": "CS",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 419521883.0,
+      "upper": [
+        6.25,
+        60,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-07,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-07,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 3,
+      "fixedKd": 0.02,
+      "fixedValue": 0.252336401975054,
+      "freeIndices": [
+        2,
+        4,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "CS_KG_US",
+      "lower": [
+        0,
+        10,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "kG",
+      "reactor": "CS",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 978930269.0,
+      "upper": [
+        6.25,
+        60,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-07,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-07,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 4,
+      "fixedKd": 0.02,
+      "fixedValue": 34.0384902060445,
+      "freeIndices": [
+        2,
+        3,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "CS_TINF_LP",
+      "lower": [
+        0,
+        0.03,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "tinf",
+      "reactor": "CS",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 2094197193.0,
+      "upper": [
+        6.25,
+        2,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-07,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-07,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 4,
+      "fixedKd": 0.02,
+      "fixedValue": 41.5384902060445,
+      "freeIndices": [
+        2,
+        3,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "CS_TINF_UP",
+      "lower": [
+        0,
+        0.03,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "tinf",
+      "reactor": "CS",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 1956470769.0,
+      "upper": [
+        6.25,
+        2,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-07,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-07,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 4,
+      "fixedKd": 0.02,
+      "fixedValue": 32.9411740878153,
+      "freeIndices": [
+        2,
+        3,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "CS_TINF_LS",
+      "lower": [
+        0,
+        0.03,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "tinf",
+      "reactor": "CS",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 1560430230.0,
+      "upper": [
+        6.25,
+        2,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-07,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-07,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 4,
+      "fixedKd": 0.02,
+      "fixedValue": 44.5294522338435,
+      "freeIndices": [
+        2,
+        3,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "CS_TINF_US",
+      "lower": [
+        0,
+        0.03,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "tinf",
+      "reactor": "CS",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 351413599.0,
+      "upper": [
+        6.25,
+        2,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-07,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-07,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 4,
+      "fixedKd": 0.02,
+      "fixedValue": 45.8823748634458,
+      "freeIndices": [
+        2,
+        3,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "CS_TINF_UG",
+      "lower": [
+        0,
+        0.03,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "tinf",
+      "reactor": "CS",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 1761401572.0,
+      "upper": [
+        6.25,
+        2,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-07,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-07,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 5,
+      "fixedKd": 0.02,
+      "fixedValue": 0.0861685097019964,
+      "freeIndices": [
+        2,
+        3,
+        4
+      ],
+      "hardBudget": 251,
+      "id": "CS_AI_LP",
+      "lower": [
+        0,
+        0.03,
+        10
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "Ai",
+      "reactor": "CS",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 1014133270.0,
+      "upper": [
+        6.25,
+        2,
+        60
+      ]
+    },
+    {
+      "AbsTol": 1e-07,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-07,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 5,
+      "fixedKd": 0.02,
+      "fixedValue": 0.191168509701996,
+      "freeIndices": [
+        2,
+        3,
+        4
+      ],
+      "hardBudget": 251,
+      "id": "CS_AI_UP",
+      "lower": [
+        0,
+        0.03,
+        10
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "Ai",
+      "reactor": "CS",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 1328030362.0,
+      "upper": [
+        6.25,
+        2,
+        60
+      ]
+    },
+    {
+      "AbsTol": 1e-07,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-07,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 5,
+      "fixedKd": 0.02,
+      "fixedValue": 0.046398428301075,
+      "freeIndices": [
+        2,
+        3,
+        4
+      ],
+      "hardBudget": 251,
+      "id": "CS_AI_LS",
+      "lower": [
+        0,
+        0.03,
+        10
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "Ai",
+      "reactor": "CS",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 1465594132.0,
+      "upper": [
+        6.25,
+        2,
+        60
+      ]
+    },
+    {
+      "AbsTol": 1e-07,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-07,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 5,
+      "fixedKd": 0.02,
+      "fixedValue": 0.241398428301075,
+      "freeIndices": [
+        2,
+        3,
+        4
+      ],
+      "hardBudget": 251,
+      "id": "CS_AI_US",
+      "lower": [
+        0,
+        0.03,
+        10
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "Ai",
+      "reactor": "CS",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 162796231.0,
+      "upper": [
+        6.25,
+        2,
+        60
+      ]
+    },
+    {
+      "AbsTol": 1e-07,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-07,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 2,
+      "fixedKd": 0.02,
+      "fixedValue": 2.4427604878301707,
+      "freeIndices": [
+        3,
+        4,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "CS_KB_L_R01",
+      "lower": [
+        0.03,
+        10,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "kb",
+      "reactor": "CS",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 550561010.0,
+      "upper": [
+        2,
+        60,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-07,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-07,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 2,
+      "fixedKd": 0.02,
+      "fixedValue": 2.2651188771267186,
+      "freeIndices": [
+        3,
+        4,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "CS_KB_L_R02",
+      "lower": [
+        0.03,
+        10,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "kb",
+      "reactor": "CS",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 777624596.0,
+      "upper": [
+        2,
+        60,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-07,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-07,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 2,
+      "fixedKd": 0.02,
+      "fixedValue": 4.069800736654586,
+      "freeIndices": [
+        3,
+        4,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "CS_KB_U_R01",
+      "lower": [
+        0.03,
+        10,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "kb",
+      "reactor": "CS",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 620805940.0,
+      "upper": [
+        2,
+        60,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-07,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-07,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 2,
+      "fixedKd": 0.02,
+      "fixedValue": 3.9910423599123606,
+      "freeIndices": [
+        3,
+        4,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "CS_KB_U_R02",
+      "lower": [
+        0.03,
+        10,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "kb",
+      "reactor": "CS",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 696319346.0,
+      "upper": [
+        2,
+        60,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-07,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-07,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 3,
+      "fixedKd": 0.02,
+      "fixedValue": 0.22509532003111538,
+      "freeIndices": [
+        2,
+        4,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "CS_KG_U_R01",
+      "lower": [
+        0,
+        10,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "kG",
+      "reactor": "CS",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 1717642707.0,
+      "upper": [
+        6.25,
+        60,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-07,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-07,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 5,
+      "fixedKd": 0.02,
+      "fixedValue": 0.08219150156190426,
+      "freeIndices": [
+        2,
+        3,
+        4
+      ],
+      "hardBudget": 251,
+      "id": "CS_AI_L_R01",
+      "lower": [
+        0,
+        0.03,
+        10
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "Ai",
+      "reactor": "CS",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 853544305.0,
+      "upper": [
+        6.25,
+        2,
+        60
+      ]
+    },
+    {
+      "AbsTol": 1e-06,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-06,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 1,
+      "fixedKd": 0.02,
+      "fixedValue": 0.02,
+      "freeIndices": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "PF_A00",
+      "lower": [
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "Kd",
+      "reactor": "PF",
+      "recheckToleranceNLL": 0.0005,
+      "role": "ANCHOR_SEARCH",
+      "seed": 1058630126.0,
+      "upper": [
+        0.24,
+        2,
+        60,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-06,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-06,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 2,
+      "fixedKd": 0.02,
+      "fixedValue": 0.15,
+      "freeIndices": [
+        3,
+        4,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "PF_KB_LP",
+      "lower": [
+        0.03,
+        10,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "kb",
+      "reactor": "PF",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 1059133552.0,
+      "upper": [
+        2,
+        60,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-06,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-06,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 2,
+      "fixedKd": 0.02,
+      "fixedValue": 0.2,
+      "freeIndices": [
+        3,
+        4,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "PF_KB_UP",
+      "lower": [
+        0.03,
+        10,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "kb",
+      "reactor": "PF",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 979743119.0,
+      "upper": [
+        2,
+        60,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-06,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-06,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 2,
+      "fixedKd": 0.02,
+      "fixedValue": 0.12,
+      "freeIndices": [
+        3,
+        4,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "PF_KB_LS",
+      "lower": [
+        0.03,
+        10,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "kb",
+      "reactor": "PF",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 1897162821.0,
+      "upper": [
+        2,
+        60,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-06,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-06,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 2,
+      "fixedKd": 0.02,
+      "fixedValue": 0.215,
+      "freeIndices": [
+        3,
+        4,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "PF_KB_US",
+      "lower": [
+        0.03,
+        10,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "kb",
+      "reactor": "PF",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 1269695100.0,
+      "upper": [
+        2,
+        60,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-06,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-06,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 3,
+      "fixedKd": 0.02,
+      "fixedValue": 0.1,
+      "freeIndices": [
+        2,
+        4,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "PF_KG_LP",
+      "lower": [
+        0,
+        10,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "kG",
+      "reactor": "PF",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 937670237.0,
+      "upper": [
+        0.24,
+        60,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-06,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-06,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 3,
+      "fixedKd": 0.02,
+      "fixedValue": 0.25,
+      "freeIndices": [
+        2,
+        4,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "PF_KG_UP",
+      "lower": [
+        0,
+        10,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "kG",
+      "reactor": "PF",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 1914963295.0,
+      "upper": [
+        0.24,
+        60,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-06,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-06,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 3,
+      "fixedKd": 0.02,
+      "fixedValue": 0.06,
+      "freeIndices": [
+        2,
+        4,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "PF_KG_LS",
+      "lower": [
+        0,
+        10,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "kG",
+      "reactor": "PF",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 93350206.0,
+      "upper": [
+        0.24,
+        60,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-06,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-06,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 3,
+      "fixedKd": 0.02,
+      "fixedValue": 0.5,
+      "freeIndices": [
+        2,
+        4,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "PF_KG_US",
+      "lower": [
+        0,
+        10,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "kG",
+      "reactor": "PF",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 751979204.0,
+      "upper": [
+        0.24,
+        60,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-06,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-06,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 4,
+      "fixedKd": 0.02,
+      "fixedValue": 20,
+      "freeIndices": [
+        2,
+        3,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "PF_TINF_LP",
+      "lower": [
+        0,
+        0.03,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "tinf",
+      "reactor": "PF",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 1930984473.0,
+      "upper": [
+        0.24,
+        2,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-06,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-06,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 4,
+      "fixedKd": 0.02,
+      "fixedValue": 28,
+      "freeIndices": [
+        2,
+        3,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "PF_TINF_UP",
+      "lower": [
+        0,
+        0.03,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "tinf",
+      "reactor": "PF",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 888543859.0,
+      "upper": [
+        0.24,
+        2,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-06,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-06,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 4,
+      "fixedKd": 0.02,
+      "fixedValue": 35,
+      "freeIndices": [
+        2,
+        3,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "PF_TINF_US",
+      "lower": [
+        0,
+        0.03,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "tinf",
+      "reactor": "PF",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 396668438.0,
+      "upper": [
+        0.24,
+        2,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-06,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-06,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 2,
+      "fixedKd": 0.02,
+      "fixedValue": 0.147,
+      "freeIndices": [
+        3,
+        4,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "PF_KB_L_R01",
+      "lower": [
+        0.03,
+        10,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "kb",
+      "reactor": "PF",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 622827994.0,
+      "upper": [
+        2,
+        60,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-06,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-06,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 2,
+      "fixedKd": 0.02,
+      "fixedValue": 0.2036429222055112,
+      "freeIndices": [
+        3,
+        4,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "PF_KB_U_R01",
+      "lower": [
+        0.03,
+        10,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "kb",
+      "reactor": "PF",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 57032071.0,
+      "upper": [
+        2,
+        60,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-06,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-06,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 3,
+      "fixedKd": 0.02,
+      "fixedValue": 0.08938769647641978,
+      "freeIndices": [
+        2,
+        4,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "PF_KG_L_R01",
+      "lower": [
+        0,
+        10,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "kG",
+      "reactor": "PF",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 1873965433.0,
+      "upper": [
+        0.24,
+        60,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-06,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-06,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 3,
+      "fixedKd": 0.02,
+      "fixedValue": 0.3327797434274212,
+      "freeIndices": [
+        2,
+        4,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "PF_KG_U_R01",
+      "lower": [
+        0,
+        10,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "kG",
+      "reactor": "PF",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 2059383032.0,
+      "upper": [
+        0.24,
+        60,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-06,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-06,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 3,
+      "fixedKd": 0.02,
+      "fixedValue": 0.3057089227413474,
+      "freeIndices": [
+        2,
+        4,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "PF_KG_U_R02",
+      "lower": [
+        0,
+        10,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "kG",
+      "reactor": "PF",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 1593745914.0,
+      "upper": [
+        0.24,
+        60,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-06,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-06,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 4,
+      "fixedKd": 0.02,
+      "fixedValue": 20.423984567082865,
+      "freeIndices": [
+        2,
+        3,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "PF_TINF_L_R01",
+      "lower": [
+        0,
+        0.03,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "tinf",
+      "reactor": "PF",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 712892879.0,
+      "upper": [
+        0.24,
+        2,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-06,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-06,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 4,
+      "fixedKd": 0.02,
+      "fixedValue": 28.7,
+      "freeIndices": [
+        2,
+        3,
+        5
+      ],
+      "hardBudget": 251,
+      "id": "PF_TINF_U_R01",
+      "lower": [
+        0,
+        0.03,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "tinf",
+      "reactor": "PF",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 1480916529.0,
+      "upper": [
+        0.24,
+        2,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-06,
+      "AiFixedProfileUpper": 0.375,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-06,
+      "anchorPolicy": "STOP_RECHECK_IMPROVEMENT_GT_5E-4",
+      "closure": {},
+      "fixedIndex": 5,
+      "fixedKd": 0.02,
+      "fixedValue": 0.09,
+      "freeIndices": [
+        2,
+        3,
+        4
+      ],
+      "hardBudget": 251,
+      "id": "PF_AI_LX",
+      "lower": [
+        0,
+        0.03,
+        10
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "Ai",
+      "reactor": "PF",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 279631867.0,
+      "upper": [
+        0.24,
+        2,
+        60
+      ]
+    },
+    {
+      "AbsTol": 1e-06,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-06,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 5,
+      "fixedKd": 0.02,
+      "fixedValue": 0.1,
+      "freeIndices": [
+        2,
+        3,
+        4
+      ],
+      "hardBudget": 251,
+      "id": "PF_AI_LS",
+      "lower": [
+        0,
+        0.03,
+        10
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "Ai",
+      "reactor": "PF",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 897961210.0,
+      "upper": [
+        0.24,
+        2,
+        60
+      ]
+    },
+    {
+      "AbsTol": 1e-06,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-06,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 5,
+      "fixedKd": 0.02,
+      "fixedValue": 0.15,
+      "freeIndices": [
+        2,
+        3,
+        4
+      ],
+      "hardBudget": 251,
+      "id": "PF_AI_LP",
+      "lower": [
+        0,
+        0.03,
+        10
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "Ai",
+      "reactor": "PF",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 554899658.0,
+      "upper": [
+        0.24,
+        2,
+        60
+      ]
+    },
+    {
+      "AbsTol": 1e-06,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-06,
+      "anchorPolicy": "ROLLING_ELIGIBLE_LOWER_ENVELOPE_NO_AUTO_CLOSURE",
+      "closure": {},
+      "fixedIndex": 5,
+      "fixedKd": 0.02,
+      "fixedValue": 0.3,
+      "freeIndices": [
+        2,
+        3,
+        4
+      ],
+      "hardBudget": 251,
+      "id": "PF_AI_UP",
+      "lower": [
+        0,
+        0.03,
+        10
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "Ai",
+      "reactor": "PF",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 520969778.0,
+      "upper": [
+        0.24,
+        2,
+        60
+      ]
+    },
+    {
+      "AbsTol": 1e-06,
+      "AiFixedProfileUpper": 0.375,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-06,
+      "anchorPolicy": "STOP_RECHECK_IMPROVEMENT_GT_5E-4",
+      "closure": {},
+      "fixedIndex": 5,
+      "fixedKd": 0.02,
+      "fixedValue": 0.33,
+      "freeIndices": [
+        2,
+        3,
+        4
+      ],
+      "hardBudget": 251,
+      "id": "PF_AI_UX",
+      "lower": [
+        0,
+        0.03,
+        10
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "Ai",
+      "reactor": "PF",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 1233682366.0,
+      "upper": [
+        0.24,
+        2,
+        60
+      ]
+    },
+    {
+      "AbsTol": 1e-06,
+      "AiFixedProfileUpper": 0.375,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-06,
+      "anchorPolicy": "STOP_RECHECK_IMPROVEMENT_GT_5E-4",
+      "closure": {},
+      "fixedIndex": 5,
+      "fixedKd": 0.02,
+      "fixedValue": 0.375,
+      "freeIndices": [
+        2,
+        3,
+        4
+      ],
+      "hardBudget": 251,
+      "id": "PF_AI_UG",
+      "lower": [
+        0,
+        0.03,
+        10
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "Ai",
+      "reactor": "PF",
+      "recheckToleranceNLL": 0.0005,
+      "role": "CONDITIONAL_SEARCH",
+      "seed": 171012463.0,
+      "upper": [
+        0.24,
+        2,
+        60
+      ]
+    },
+    {
+      "AbsTol": 1e-07,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-07,
+      "anchorPolicy": "SINGLE_MATERIAL_IMPROVEMENT_CLOSURE",
+      "closure": {
+        "algorithm": "classic",
+        "PollMethod": "GPSPositiveBasis2N",
+        "UseCompletePoll": true,
+        "ScaleMesh": false,
+        "InitialMeshSize": 0.001,
+        "MaxMeshSize": 0.008,
+        "MeshExpansionFactor": 2,
+        "MeshContractionFactor": 0.5,
+        "MeshTolerance": 5e-05,
+        "MaxFunctionEvaluations": 250,
+        "pollMeshes": [
+          0.001,
+          0.00025,
+          5e-05
+        ],
+        "moveToleranceNLL": 1e-05,
+        "maxCompletePollsPerMesh": 8,
+        "maxPollForwards": 240,
+        "finalRechecks": 1,
+        "hardPerCandidate": 491,
+        "requiredIndependentEndpoints": 3
+      },
+      "fixedIndex": 1,
+      "fixedKd": 0.02,
+      "fixedValue": 0.02,
+      "freeIndices": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "hardBudget": 491,
+      "id": "CS_C01",
+      "lower": [
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "Kd",
+      "reactor": "CS",
+      "recheckToleranceNLL": 0.0005,
+      "role": "FIXED_KD_CLOSURE",
+      "seed": 1318722289.0,
+      "upper": [
+        6.25,
+        2,
+        60,
+        0.3
+      ]
+    },
+    {
+      "AbsTol": 1e-06,
+      "AiFixedProfileUpper": 0.3,
+      "AiNuisanceUpper": 0.3,
+      "RelTol": 1e-06,
+      "anchorPolicy": "SINGLE_MATERIAL_IMPROVEMENT_CLOSURE",
+      "closure": {
+        "algorithm": "classic",
+        "PollMethod": "GPSPositiveBasis2N",
+        "UseCompletePoll": true,
+        "ScaleMesh": false,
+        "InitialMeshSize": 0.001,
+        "MaxMeshSize": 0.008,
+        "MeshExpansionFactor": 2,
+        "MeshContractionFactor": 0.5,
+        "MeshTolerance": 5e-05,
+        "MaxFunctionEvaluations": 250,
+        "pollMeshes": [
+          0.001,
+          0.00025,
+          5e-05
+        ],
+        "moveToleranceNLL": 1e-05,
+        "maxCompletePollsPerMesh": 8,
+        "maxPollForwards": 240,
+        "finalRechecks": 1,
+        "hardPerCandidate": 491,
+        "requiredIndependentEndpoints": 3
+      },
+      "fixedIndex": 1,
+      "fixedKd": 0.02,
+      "fixedValue": 0.02,
+      "freeIndices": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "hardBudget": 491,
+      "id": "PF_C01",
+      "lower": [
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "maxHorizon_d": 94,
+      "objectiveCap": 250,
+      "options": {
+        "MaxFunctionEvaluations": 250,
+        "MinSurrogatePoints": "max(20,2*numberOfVariables)",
+        "MinSampleDistance": 1e-06,
+        "UseParallel": false,
+        "UseVectorized": false,
+        "ObjectiveLimit": {
+          "nonfinite": "-inf"
+        },
+        "ConstraintTolerance": 0.001,
+        "MaxTime": {
+          "nonfinite": "inf"
+        },
+        "BatchUpdateInterval": 1,
+        "ObjectiveImprovementThreshold": 1e-06
+      },
+      "profile": "Kd",
+      "reactor": "PF",
+      "recheckToleranceNLL": 0.0005,
+      "role": "FIXED_KD_CLOSURE",
+      "seed": 1058630126.0,
+      "upper": [
+        0.24,
+        2,
+        60,
+        0.3
+      ]
+    }
+  ]
+}

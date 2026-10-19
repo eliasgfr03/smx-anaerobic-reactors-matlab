@@ -1,0 +1,4322 @@
+{
+  "schemaVersion": "JWPE_PL_METHOD_RECIPES_v1",
+  "model": "M0_PF",
+  "cases": [
+    {
+      "id": "P12__p1_krev_s01",
+      "profile": "krev",
+      "fixedValue": 0.005,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kSigma",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.05,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        2,
+        60,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "kG",
+          "tinf",
+          "Ai"
+        ],
+        "param": "krev",
+        "fixedValue": 0.005,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 139,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026088101,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 150,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p1_krev_s01"
+    },
+    {
+      "id": "P12__p1_krev_s02",
+      "profile": "krev",
+      "fixedValue": 0.02,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kSigma",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.1333333333333333,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        2,
+        60,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "kG",
+          "tinf",
+          "Ai"
+        ],
+        "param": "krev",
+        "fixedValue": 0.02,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 238,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026088142,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p1_krev_s02"
+    },
+    {
+      "id": "P12__p1_krev_s03",
+      "profile": "krev",
+      "fixedValue": 0.05,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kSigma",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.3333333333333333,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        2,
+        60,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "kG",
+          "tinf",
+          "Ai"
+        ],
+        "param": "krev",
+        "fixedValue": 0.05,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 239,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026088183,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p1_krev_s03"
+    },
+    {
+      "id": "P12__p1_krev_s04",
+      "profile": "krev",
+      "fixedValue": 0.1,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kSigma",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.6666666666666666,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        2,
+        60,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "kG",
+          "tinf",
+          "Ai"
+        ],
+        "param": "krev",
+        "fixedValue": 0.1,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 239,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026088224,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p1_krev_s04"
+    },
+    {
+      "id": "P12__p1_krev_s05",
+      "profile": "krev",
+      "fixedValue": 0.2,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kSigma",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        1.3333333333333333,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        2,
+        60,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "kG",
+          "tinf",
+          "Ai"
+        ],
+        "param": "krev",
+        "fixedValue": 0.2,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 239,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026088265,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p1_krev_s05"
+    },
+    {
+      "id": "P12__p1_krev_s06",
+      "profile": "krev",
+      "fixedValue": 0.5,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kSigma",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        3.333333333333333,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        2,
+        60,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "kG",
+          "tinf",
+          "Ai"
+        ],
+        "param": "krev",
+        "fixedValue": 0.5,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 239,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026088306,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p1_krev_s06"
+    },
+    {
+      "id": "P12__p1_krev_s07",
+      "profile": "krev",
+      "fixedValue": 0.9375,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        2,
+        60,
+        0.3
+      ],
+      "spec": {
+        "nvar": 4,
+        "names": [
+          "Kd",
+          "kG",
+          "tinf",
+          "Ai"
+        ],
+        "param": "krev",
+        "fixedValue": 0.9375,
+        "fixedKsigma": 6.25
+      },
+      "fixedKsigmaKnown": true,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 189,
+        "minSurrogatePoints": 8,
+        "nvar": 4,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026088347,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 200,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p1_krev_s07"
+    },
+    {
+      "id": "P12__p2_kb_s01",
+      "profile": "kb",
+      "fixedValue": 0.05,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kSigma",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.05,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        0.05882352941176471,
+        2,
+        60,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "kG",
+          "tinf",
+          "Ai"
+        ],
+        "param": "kb",
+        "fixedValue": 0.05,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 238,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026088388,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p2_kb_s01"
+    },
+    {
+      "id": "P12__p2_kb_s02",
+      "profile": "kb",
+      "fixedValue": 0.075,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kSigma",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.075,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        0.08823529411764706,
+        2,
+        60,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "kG",
+          "tinf",
+          "Ai"
+        ],
+        "param": "kb",
+        "fixedValue": 0.075,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 238,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026088429,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p2_kb_s02"
+    },
+    {
+      "id": "P12__p2_kb_s03",
+      "profile": "kb",
+      "fixedValue": 0.15,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kSigma",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.15,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        0.17647058823529413,
+        2,
+        60,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "kG",
+          "tinf",
+          "Ai"
+        ],
+        "param": "kb",
+        "fixedValue": 0.15,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 238,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026088470,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p2_kb_s03"
+    },
+    {
+      "id": "P12__p2_kb_s04",
+      "profile": "kb",
+      "fixedValue": 0.3,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kSigma",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.3,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        0.35294117647058826,
+        2,
+        60,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "kG",
+          "tinf",
+          "Ai"
+        ],
+        "param": "kb",
+        "fixedValue": 0.3,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 239,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026088511,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p2_kb_s04"
+    },
+    {
+      "id": "P12__p2_kb_s05",
+      "profile": "kb",
+      "fixedValue": 0.6,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kSigma",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.6,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        0.7058823529411765,
+        2,
+        60,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "kG",
+          "tinf",
+          "Ai"
+        ],
+        "param": "kb",
+        "fixedValue": 0.6,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 239,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026088552,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p2_kb_s05"
+    },
+    {
+      "id": "P12__p2_kb_s06",
+      "profile": "kb",
+      "fixedValue": 1.2,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kSigma",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        1.2,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        1.411764705882353,
+        2,
+        60,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "kG",
+          "tinf",
+          "Ai"
+        ],
+        "param": "kb",
+        "fixedValue": 1.2,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 239,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026088593,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p2_kb_s06"
+    },
+    {
+      "id": "P12__p2_kb_s07",
+      "profile": "kb",
+      "fixedValue": 6.25,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        2,
+        60,
+        0.3
+      ],
+      "spec": {
+        "nvar": 4,
+        "names": [
+          "Kd",
+          "kG",
+          "tinf",
+          "Ai"
+        ],
+        "param": "kb",
+        "fixedValue": 6.25,
+        "fixedKsigma": 6.25
+      },
+      "fixedKsigmaKnown": true,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 189,
+        "minSurrogatePoints": 8,
+        "nvar": 4,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026088634,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 200,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p2_kb_s07"
+    },
+    {
+      "id": "P12__p3_Kd_s01",
+      "profile": "Kd",
+      "fixedValue": 0,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "kSigma",
+        "Fdir",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0.05,
+        0.85,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        6.25,
+        1,
+        2,
+        60,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "kSigma",
+          "Fdir",
+          "kG",
+          "tinf",
+          "Ai"
+        ],
+        "param": "Kd",
+        "fixedValue": 0,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 238,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026088675,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p3_Kd_s01"
+    },
+    {
+      "id": "P12__p3_Kd_s02",
+      "profile": "Kd",
+      "fixedValue": 0.01,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "kSigma",
+        "Fdir",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0.05,
+        0.85,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        6.25,
+        1,
+        2,
+        60,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "kSigma",
+          "Fdir",
+          "kG",
+          "tinf",
+          "Ai"
+        ],
+        "param": "Kd",
+        "fixedValue": 0.01,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 238,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026088716,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p3_Kd_s02"
+    },
+    {
+      "id": "P12__p3_Kd_s03",
+      "profile": "Kd",
+      "fixedValue": 0.02,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "kSigma",
+        "Fdir",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0.05,
+        0.85,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        6.25,
+        1,
+        2,
+        60,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "kSigma",
+          "Fdir",
+          "kG",
+          "tinf",
+          "Ai"
+        ],
+        "param": "Kd",
+        "fixedValue": 0.02,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 238,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026088757,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p3_Kd_s03"
+    },
+    {
+      "id": "P12__p3_Kd_s04",
+      "profile": "Kd",
+      "fixedValue": 0.035,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "kSigma",
+        "Fdir",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0.05,
+        0.85,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        6.25,
+        1,
+        2,
+        60,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "kSigma",
+          "Fdir",
+          "kG",
+          "tinf",
+          "Ai"
+        ],
+        "param": "Kd",
+        "fixedValue": 0.035,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 238,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026088798,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p3_Kd_s04"
+    },
+    {
+      "id": "P12__p3_Kd_s05",
+      "profile": "Kd",
+      "fixedValue": 0.05,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "kSigma",
+        "Fdir",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0.05,
+        0.85,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        6.25,
+        1,
+        2,
+        60,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "kSigma",
+          "Fdir",
+          "kG",
+          "tinf",
+          "Ai"
+        ],
+        "param": "Kd",
+        "fixedValue": 0.05,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 238,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026088839,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p3_Kd_s05"
+    },
+    {
+      "id": "P12__p3_Kd_s06",
+      "profile": "Kd",
+      "fixedValue": 0.06,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "kSigma",
+        "Fdir",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0.05,
+        0.85,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        6.25,
+        1,
+        2,
+        60,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "kSigma",
+          "Fdir",
+          "kG",
+          "tinf",
+          "Ai"
+        ],
+        "param": "Kd",
+        "fixedValue": 0.06,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 238,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026088880,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p3_Kd_s06"
+    },
+    {
+      "id": "P12__p4_kG_s01",
+      "profile": "kG",
+      "fixedValue": 0.03,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kSigma",
+        "Fdir",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.05,
+        0.85,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        1,
+        60,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "Fdir",
+          "tinf",
+          "Ai"
+        ],
+        "param": "kG",
+        "fixedValue": 0.03,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 238,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026088921,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p4_kG_s01"
+    },
+    {
+      "id": "P12__p4_kG_s02",
+      "profile": "kG",
+      "fixedValue": 0.06,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kSigma",
+        "Fdir",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.05,
+        0.85,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        1,
+        60,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "Fdir",
+          "tinf",
+          "Ai"
+        ],
+        "param": "kG",
+        "fixedValue": 0.06,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 238,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026088962,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p4_kG_s02"
+    },
+    {
+      "id": "P12__p4_kG_s03",
+      "profile": "kG",
+      "fixedValue": 0.1,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kSigma",
+        "Fdir",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.05,
+        0.85,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        1,
+        60,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "Fdir",
+          "tinf",
+          "Ai"
+        ],
+        "param": "kG",
+        "fixedValue": 0.1,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 238,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026089003,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p4_kG_s03"
+    },
+    {
+      "id": "P12__p4_kG_s04",
+      "profile": "kG",
+      "fixedValue": 0.25,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kSigma",
+        "Fdir",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.05,
+        0.85,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        1,
+        60,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "Fdir",
+          "tinf",
+          "Ai"
+        ],
+        "param": "kG",
+        "fixedValue": 0.25,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 238,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026089044,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p4_kG_s04"
+    },
+    {
+      "id": "P12__p4_kG_s05",
+      "profile": "kG",
+      "fixedValue": 0.5,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kSigma",
+        "Fdir",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.05,
+        0.85,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        1,
+        60,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "Fdir",
+          "tinf",
+          "Ai"
+        ],
+        "param": "kG",
+        "fixedValue": 0.5,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 238,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026089085,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p4_kG_s05"
+    },
+    {
+      "id": "P12__p4_kG_s06",
+      "profile": "kG",
+      "fixedValue": 1,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kSigma",
+        "Fdir",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.05,
+        0.85,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        1,
+        60,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "Fdir",
+          "tinf",
+          "Ai"
+        ],
+        "param": "kG",
+        "fixedValue": 1,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 238,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026089126,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p4_kG_s06"
+    },
+    {
+      "id": "P12__p4_kG_s07",
+      "profile": "kG",
+      "fixedValue": 2,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kSigma",
+        "Fdir",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.05,
+        0.85,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        1,
+        60,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "Fdir",
+          "tinf",
+          "Ai"
+        ],
+        "param": "kG",
+        "fixedValue": 2,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 238,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026089167,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p4_kG_s07"
+    },
+    {
+      "id": "P12__p5_tinf_s01",
+      "profile": "tinf",
+      "fixedValue": 10,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kSigma",
+        "Fdir",
+        "kG",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.05,
+        0.85,
+        0.03,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        1,
+        2,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "Fdir",
+          "kG",
+          "Ai"
+        ],
+        "param": "tinf",
+        "fixedValue": 10,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 238,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026089208,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p5_tinf_s01"
+    },
+    {
+      "id": "P12__p5_tinf_s02",
+      "profile": "tinf",
+      "fixedValue": 16,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kSigma",
+        "Fdir",
+        "kG",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.05,
+        0.85,
+        0.03,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        1,
+        2,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "Fdir",
+          "kG",
+          "Ai"
+        ],
+        "param": "tinf",
+        "fixedValue": 16,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 238,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026089249,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p5_tinf_s02"
+    },
+    {
+      "id": "P12__p5_tinf_s03",
+      "profile": "tinf",
+      "fixedValue": 20,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kSigma",
+        "Fdir",
+        "kG",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.05,
+        0.85,
+        0.03,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        1,
+        2,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "Fdir",
+          "kG",
+          "Ai"
+        ],
+        "param": "tinf",
+        "fixedValue": 20,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 238,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026089290,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p5_tinf_s03"
+    },
+    {
+      "id": "P12__p5_tinf_s04",
+      "profile": "tinf",
+      "fixedValue": 28,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kSigma",
+        "Fdir",
+        "kG",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.05,
+        0.85,
+        0.03,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        1,
+        2,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "Fdir",
+          "kG",
+          "Ai"
+        ],
+        "param": "tinf",
+        "fixedValue": 28,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 238,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026089331,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p5_tinf_s04"
+    },
+    {
+      "id": "P12__p5_tinf_s05",
+      "profile": "tinf",
+      "fixedValue": 35,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kSigma",
+        "Fdir",
+        "kG",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.05,
+        0.85,
+        0.03,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        1,
+        2,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "Fdir",
+          "kG",
+          "Ai"
+        ],
+        "param": "tinf",
+        "fixedValue": 35,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 238,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026089372,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p5_tinf_s05"
+    },
+    {
+      "id": "P12__p5_tinf_s06",
+      "profile": "tinf",
+      "fixedValue": 45,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kSigma",
+        "Fdir",
+        "kG",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.05,
+        0.85,
+        0.03,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        1,
+        2,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "Fdir",
+          "kG",
+          "Ai"
+        ],
+        "param": "tinf",
+        "fixedValue": 45,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 238,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026089413,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p5_tinf_s06"
+    },
+    {
+      "id": "P12__p5_tinf_s07",
+      "profile": "tinf",
+      "fixedValue": 60,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kSigma",
+        "Fdir",
+        "kG",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.05,
+        0.85,
+        0.03,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        1,
+        2,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "Fdir",
+          "kG",
+          "Ai"
+        ],
+        "param": "tinf",
+        "fixedValue": 60,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 238,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026089454,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p5_tinf_s07"
+    },
+    {
+      "id": "P12__p6_Ai_s01",
+      "profile": "Ai",
+      "fixedValue": 0,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kSigma",
+        "Fdir",
+        "kG",
+        "tinf"
+      ],
+      "lb": [
+        0,
+        0.05,
+        0.85,
+        0.03,
+        10
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        1,
+        2,
+        60
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "Fdir",
+          "kG",
+          "tinf"
+        ],
+        "param": "Ai",
+        "fixedValue": 0,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 238,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026089495,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p6_Ai_s01"
+    },
+    {
+      "id": "P12__p6_Ai_s02",
+      "profile": "Ai",
+      "fixedValue": 0.05,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kSigma",
+        "Fdir",
+        "kG",
+        "tinf"
+      ],
+      "lb": [
+        0,
+        0.05,
+        0.85,
+        0.03,
+        10
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        1,
+        2,
+        60
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "Fdir",
+          "kG",
+          "tinf"
+        ],
+        "param": "Ai",
+        "fixedValue": 0.05,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 238,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026089536,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p6_Ai_s02"
+    },
+    {
+      "id": "P12__p6_Ai_s03",
+      "profile": "Ai",
+      "fixedValue": 0.1,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kSigma",
+        "Fdir",
+        "kG",
+        "tinf"
+      ],
+      "lb": [
+        0,
+        0.05,
+        0.85,
+        0.03,
+        10
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        1,
+        2,
+        60
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "Fdir",
+          "kG",
+          "tinf"
+        ],
+        "param": "Ai",
+        "fixedValue": 0.1,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 238,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026089577,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p6_Ai_s03"
+    },
+    {
+      "id": "P12__p6_Ai_s04",
+      "profile": "Ai",
+      "fixedValue": 0.15,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kSigma",
+        "Fdir",
+        "kG",
+        "tinf"
+      ],
+      "lb": [
+        0,
+        0.05,
+        0.85,
+        0.03,
+        10
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        1,
+        2,
+        60
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "Fdir",
+          "kG",
+          "tinf"
+        ],
+        "param": "Ai",
+        "fixedValue": 0.15,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 238,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026089618,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p6_Ai_s04"
+    },
+    {
+      "id": "P12__p6_Ai_s05",
+      "profile": "Ai",
+      "fixedValue": 0.18,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kSigma",
+        "Fdir",
+        "kG",
+        "tinf"
+      ],
+      "lb": [
+        0,
+        0.05,
+        0.85,
+        0.03,
+        10
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        1,
+        2,
+        60
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "Fdir",
+          "kG",
+          "tinf"
+        ],
+        "param": "Ai",
+        "fixedValue": 0.18,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 238,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026089659,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p6_Ai_s05"
+    },
+    {
+      "id": "P12__p6_Ai_s06",
+      "profile": "Ai",
+      "fixedValue": 0.25,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kSigma",
+        "Fdir",
+        "kG",
+        "tinf"
+      ],
+      "lb": [
+        0,
+        0.05,
+        0.85,
+        0.03,
+        10
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        1,
+        2,
+        60
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "Fdir",
+          "kG",
+          "tinf"
+        ],
+        "param": "Ai",
+        "fixedValue": 0.25,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 238,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026089700,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p6_Ai_s06"
+    },
+    {
+      "id": "P12__p6_Ai_s07",
+      "profile": "Ai",
+      "fixedValue": 0.3,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "p12",
+      "names": [
+        "Kd",
+        "kSigma",
+        "Fdir",
+        "kG",
+        "tinf"
+      ],
+      "lb": [
+        0,
+        0.05,
+        0.85,
+        0.03,
+        10
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        1,
+        2,
+        60
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "Fdir",
+          "kG",
+          "tinf"
+        ],
+        "param": "Ai",
+        "fixedValue": 0.3,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 238,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026089741,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "p6_Ai_s07"
+    },
+    {
+      "id": "PL_R1__PF_KREV_C1",
+      "profile": "krev",
+      "fixedValue": 0.0212171463,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "r1",
+      "names": [
+        "Kd",
+        "kSigma",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.14144764199999998,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        2,
+        60,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "kG",
+          "tinf",
+          "Ai"
+        ],
+        "param": "krev",
+        "fixedValue": 0.0212171463,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 250,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026089801,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "PF_KREV_C1"
+    },
+    {
+      "id": "PL_R1__PF_KD_0200",
+      "profile": "Kd",
+      "fixedValue": 0.2,
+      "category": "SUPPORT_DIAGNOSTIC",
+      "map": "r1",
+      "names": [
+        "kSigma",
+        "Fdir",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0.05,
+        0.85,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        6.25,
+        1,
+        2,
+        60,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "kSigma",
+          "Fdir",
+          "kG",
+          "tinf",
+          "Ai"
+        ],
+        "param": "Kd",
+        "fixedValue": 0.2,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 250,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026089837,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.2
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "PF_KD_0200"
+    },
+    {
+      "id": "PL_R1__PF_AI_0330",
+      "profile": "Ai",
+      "fixedValue": 0.33,
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "r1",
+      "names": [
+        "Kd",
+        "kSigma",
+        "Fdir",
+        "kG",
+        "tinf"
+      ],
+      "lb": [
+        0,
+        0.05,
+        0.85,
+        0.03,
+        10
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        1,
+        2,
+        60
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "Fdir",
+          "kG",
+          "tinf"
+        ],
+        "param": "Ai",
+        "fixedValue": 0.33,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 250,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026089907,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.33
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "PF_AI_0330"
+    },
+    {
+      "id": "PL_R1_1__PF_KB_0075_KDX",
+      "profile": "kb",
+      "fixedValue": 0.075,
+      "category": "SUPPORT_DIAGNOSTIC",
+      "map": "r11",
+      "names": [
+        "Kd",
+        "kSigma",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.075,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.2,
+        0.08823529411764706,
+        2,
+        60,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "kSigma",
+          "kG",
+          "tinf",
+          "Ai"
+        ],
+        "param": "kb",
+        "fixedValue": 0.075,
+        "fixedKsigma": 0
+      },
+      "fixedKsigmaKnown": false,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 250,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026089991,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 250,
+      "evaluationBounds": [
+        [
+          0,
+          0.2
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "PF_KB_0075_KDX"
+    },
+    {
+      "id": "fixed_ksigma_0050",
+      "profile": "kSigma",
+      "fixedValue": 0.05,
+      "category": "AUDITED_FIXED_KSIGMA_SEARCH",
+      "map": "fixed_ksigma",
+      "names": [
+        "Kd",
+        "Fdir",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.85,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        1,
+        2,
+        60,
+        0.3
+      ],
+      "spec": {
+        "nvar": 5,
+        "names": [
+          "Kd",
+          "Fdir",
+          "kG",
+          "tinf",
+          "Ai"
+        ],
+        "param": "kSigma",
+        "fixedValue": 0.05,
+        "fixedKsigma": 0.05
+      },
+      "fixedKsigmaKnown": true,
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026084291,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      },
+      "totalNewObjectiveCap": 200,
+      "evaluationBounds": [
+        [
+          0,
+          0.06
+        ],
+        [
+          0.0425,
+          6.25
+        ],
+        [
+          0,
+          0.9375
+        ],
+        [
+          0.03,
+          2
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "kSigmaSupport": [
+        0.05,
+        6.25
+      ],
+      "FdirSupport": [
+        0.85,
+        1
+      ],
+      "sourceCaseID": "fixed_ksigma_0050"
+    }
+  ]
+}

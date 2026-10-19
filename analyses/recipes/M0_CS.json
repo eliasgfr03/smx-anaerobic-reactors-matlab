@@ -1,0 +1,4149 @@
+{
+  "schemaVersion": "JWPE_PL_METHOD_RECIPES_v1",
+  "model": "M0_CS",
+  "cases": [
+    {
+      "id": "anchor_all_free",
+      "profile": "anchor",
+      "fixedValue": null,
+      "stage": "anchor",
+      "category": "ANCHOR_SEARCH",
+      "map": "anchor",
+      "names": [
+        "Kd",
+        "kb",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 6,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v2_kb_coarse_lower_01",
+      "profile": "kb",
+      "fixedValue": 1.7408629275529128,
+      "stage": "v2",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 150,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v2_kb_coarse_lower_02",
+      "profile": "kb",
+      "fixedValue": 1.5844563035999746,
+      "stage": "v2",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 150,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v2_kb_coarse_lower_03",
+      "profile": "kb",
+      "fixedValue": 1.2716430556940983,
+      "stage": "v2",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 150,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v2_kb_refine_lower_01",
+      "profile": "kb",
+      "fixedValue": 1.4406280906552067,
+      "stage": "v2",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 150,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v2_kb_refine_lower_02",
+      "profile": "kb",
+      "fixedValue": 1.391137569232685,
+      "stage": "v2",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 150,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v2_kb_coarse_upper_01",
+      "profile": "kb",
+      "fixedValue": 2.040612927552913,
+      "stage": "v2",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 150,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v2_kb_coarse_upper_02",
+      "profile": "kb",
+      "fixedValue": 2.4837063035999747,
+      "stage": "v2",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 150,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v2_kb_coarse_upper_03",
+      "profile": "kb",
+      "fixedValue": 3.369893055694098,
+      "stage": "v2",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 150,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v2_kb_coarse_upper_04",
+      "profile": "kb",
+      "fixedValue": 4.699173183835283,
+      "stage": "v2",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 150,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v2_kb_coarse_upper_05",
+      "profile": "kb",
+      "fixedValue": 6.25,
+      "stage": "v2",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 150,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v2_kb_refine_upper_01",
+      "profile": "kb",
+      "fixedValue": 4.985531669018587,
+      "stage": "v2",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 150,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v2_kb_refine_upper_02",
+      "profile": "kb",
+      "fixedValue": 5.190434777110097,
+      "stage": "v2",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 150,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v2_kb_refine_upper_03",
+      "profile": "kb",
+      "fixedValue": 5.340438527385371,
+      "stage": "v2",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 150,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v2_krev_coarse_upper_01",
+      "profile": "krev",
+      "fixedValue": 0.046875,
+      "stage": "v2",
+      "category": "SUPERSEDED_COMPLETED_CS_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 100,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v2_krev_coarse_upper_02",
+      "profile": "krev",
+      "fixedValue": 0.140625,
+      "stage": "v2",
+      "category": "SUPERSEDED_COMPLETED_CS_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 100,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v2_krev_coarse_upper_03",
+      "profile": "krev",
+      "fixedValue": 0.328125,
+      "stage": "v2",
+      "category": "SUPERSEDED_COMPLETED_CS_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 100,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v2_krev_refine_upper_01",
+      "profile": "krev",
+      "fixedValue": 0.20008989179568018,
+      "stage": "v2",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 150,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v2_krev_refine_upper_02",
+      "profile": "krev",
+      "fixedValue": 0.23154951742358212,
+      "stage": "v2",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 150,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v2_krev_refine_upper_03",
+      "profile": "krev",
+      "fixedValue": 0.250713137606672,
+      "stage": "v2",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 150,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v3_kb_coarse_lower_01",
+      "profile": "kb",
+      "fixedValue": 1.7408629275529128,
+      "stage": "v3",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v3_kb_coarse_lower_02",
+      "profile": "kb",
+      "fixedValue": 1.5844563035999746,
+      "stage": "v3",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v3_kb_coarse_lower_03",
+      "profile": "kb",
+      "fixedValue": 1.2716430556940983,
+      "stage": "v3",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v3_kb_refine_lower_01",
+      "profile": "kb",
+      "fixedValue": 1.3969399305671364,
+      "stage": "v3",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v3_kb_refine_lower_02",
+      "profile": "kb",
+      "fixedValue": 1.3623361743404585,
+      "stage": "v3",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v3_kb_coarse_upper_01",
+      "profile": "kb",
+      "fixedValue": 2.040612927552913,
+      "stage": "v3",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v3_kb_coarse_upper_02",
+      "profile": "kb",
+      "fixedValue": 2.4837063035999747,
+      "stage": "v3",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v3_kb_coarse_upper_03",
+      "profile": "kb",
+      "fixedValue": 3.369893055694098,
+      "stage": "v3",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v3_kb_refine_upper_01",
+      "profile": "kb",
+      "fixedValue": 3.281274380484686,
+      "stage": "v3",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v3_krev_coarse_upper_01",
+      "profile": "krev",
+      "fixedValue": 0.046875,
+      "stage": "v3",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v3_krev_coarse_upper_02",
+      "profile": "krev",
+      "fixedValue": 0.140625,
+      "stage": "v3",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v3_krev_coarse_upper_03",
+      "profile": "krev",
+      "fixedValue": 0.328125,
+      "stage": "v3",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v3_krev_coarse_upper_04",
+      "profile": "krev",
+      "fixedValue": 0.609375,
+      "stage": "v3",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v3_krev_refine_upper_01",
+      "profile": "krev",
+      "fixedValue": 0.4309790128775845,
+      "stage": "v3",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v3_krev_refine_upper_02",
+      "profile": "krev",
+      "fixedValue": 0.4762537141269017,
+      "stage": "v3",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v3_krev_refine_upper_03",
+      "profile": "krev",
+      "fixedValue": 0.49948527448139657,
+      "stage": "v3",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v4_kb_CS_S04v4_kb_upper_bound",
+      "profile": "kb",
+      "fixedValue": 6.25,
+      "stage": "v4",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v4_kb_CS_S04v4_kb_upper_refine_01",
+      "profile": "kb",
+      "fixedValue": 5.539840624556206,
+      "stage": "v4",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v4_kb_CS_S04v4_kb_upper_refine_02",
+      "profile": "kb",
+      "fixedValue": 5.661784483919086,
+      "stage": "v4",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v4_kb_CS_S04v4_kb_upper_refine_03",
+      "profile": "kb",
+      "fixedValue": 5.735775693608964,
+      "stage": "v4",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v4_krev_CS_S04v4_krev_upper_refine_01",
+      "profile": "krev",
+      "fixedValue": 0.5134399510089778,
+      "stage": "v4",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v4_krev_CS_S04v4_krev_upper_refine_02",
+      "profile": "krev",
+      "fixedValue": 0.52303345590808,
+      "stage": "v4",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v4_krev_CS_S04v4_krev_upper_refine_03",
+      "profile": "krev",
+      "fixedValue": 0.531667610317272,
+      "stage": "v4",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v5_kb_CS_S04v5_kb_upper_crossing_01",
+      "profile": "kb",
+      "fixedValue": 5.788181578123871,
+      "stage": "v5",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v5_kb_CS_S04v5_kb_upper_crossing_02",
+      "profile": "kb",
+      "fixedValue": 5.853082725358118,
+      "stage": "v5",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v5_krev_CS_S04v5_krev_upper_crossing_01",
+      "profile": "krev",
+      "fixedValue": 0.5755383525632506,
+      "stage": "v5",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v5_krev_CS_S04v5_krev_reaudit_0609375",
+      "profile": "krev",
+      "fixedValue": 0.609375,
+      "stage": "v5",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v6_kb_CS_S04v6_kb_upper_crossing_01",
+      "profile": "kb",
+      "fixedValue": 5.900084181442808,
+      "stage": "v6",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_Ai_coarse_lower_01",
+      "profile": "Ai",
+      "fixedValue": 0.12593859110291783,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "krev",
+        "kG",
+        "tinf"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0,
+        0.03,
+        10
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        0.9375,
+        2,
+        60
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_Ai_coarse_lower_02",
+      "profile": "Ai",
+      "fixedValue": 0.11268189730261069,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "krev",
+        "kG",
+        "tinf"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0,
+        0.03,
+        10
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        0.9375,
+        2,
+        60
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_Ai_coarse_lower_03",
+      "profile": "Ai",
+      "fixedValue": 0.08616850970199641,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "krev",
+        "kG",
+        "tinf"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0,
+        0.03,
+        10
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        0.9375,
+        2,
+        60
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_Ai_coarse_lower_04",
+      "profile": "Ai",
+      "fixedValue": 0.04639842830107499,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "krev",
+        "kG",
+        "tinf"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0,
+        0.03,
+        10
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        0.9375,
+        2,
+        60
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_Ai_refine_lower_01",
+      "profile": "Ai",
+      "fixedValue": 0.07183946039839677,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "krev",
+        "kG",
+        "tinf"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0,
+        0.03,
+        10
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        0.9375,
+        2,
+        60
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_Ai_refine_lower_02",
+      "profile": "Ai",
+      "fixedValue": 0.06692959190646496,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "krev",
+        "kG",
+        "tinf"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0,
+        0.03,
+        10
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        0.9375,
+        2,
+        60
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_Ai_refine_lower_03",
+      "profile": "Ai",
+      "fixedValue": 0.06458908947681247,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "krev",
+        "kG",
+        "tinf"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0,
+        0.03,
+        10
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        0.9375,
+        2,
+        60
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_Ai_coarse_upper_01",
+      "profile": "Ai",
+      "fixedValue": 0.14093859110291784,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "krev",
+        "kG",
+        "tinf"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0,
+        0.03,
+        10
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        0.9375,
+        2,
+        60
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_Ai_coarse_upper_02",
+      "profile": "Ai",
+      "fixedValue": 0.15768189730261067,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "krev",
+        "kG",
+        "tinf"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0,
+        0.03,
+        10
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        0.9375,
+        2,
+        60
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_Ai_coarse_upper_03",
+      "profile": "Ai",
+      "fixedValue": 0.1911685097019964,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "krev",
+        "kG",
+        "tinf"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0,
+        0.03,
+        10
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        0.9375,
+        2,
+        60
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_Ai_coarse_upper_04",
+      "profile": "Ai",
+      "fixedValue": 0.241398428301075,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "krev",
+        "kG",
+        "tinf"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0,
+        0.03,
+        10
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        0.9375,
+        2,
+        60
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_Ai_refine_upper_01",
+      "profile": "Ai",
+      "fixedValue": 0.19881359709630478,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "krev",
+        "kG",
+        "tinf"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0,
+        0.03,
+        10
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        0.9375,
+        2,
+        60
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_Kd_coarse_lower_01",
+      "profile": "Kd",
+      "fixedValue": 0.05537657612539406,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "kb",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0.255,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        6.25,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_Kd_coarse_lower_02",
+      "profile": "Kd",
+      "fixedValue": 0.049547462849036786,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "kb",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0.255,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        6.25,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_Kd_coarse_lower_03",
+      "profile": "Kd",
+      "fixedValue": 0.03788923629632225,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "kb",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0.255,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        6.25,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_Kd_coarse_lower_04",
+      "profile": "Kd",
+      "fixedValue": 0.020401896467250442,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "kb",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0.255,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        6.25,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_Kd_coarse_lower_05",
+      "profile": "Kd",
+      "fixedValue": 0,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "kb",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0.255,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        6.25,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_Kd_coarse_upper_01",
+      "profile": "Kd",
+      "fixedValue": 0.058376576125394056,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "kb",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0.255,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        6.25,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_Kd_coarse_upper_02",
+      "profile": "Kd",
+      "fixedValue": 0.05854746284903679,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "kb",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0.255,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        6.25,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_Kd_coarse_upper_03",
+      "profile": "Kd",
+      "fixedValue": 0.05888923629632225,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "kb",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0.255,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        6.25,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_Kd_coarse_upper_04",
+      "profile": "Kd",
+      "fixedValue": 0.05940189646725044,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "kb",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0.255,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        6.25,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_Kd_coarse_upper_05",
+      "profile": "Kd",
+      "fixedValue": 0.06,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "kb",
+        "krev",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0.255,
+        0,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        6.25,
+        0.9375,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_kG_coarse_lower_01",
+      "profile": "kG",
+      "fixedValue": 0.09200422641260286,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "krev",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        0.9375,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_kG_coarse_lower_02",
+      "profile": "kG",
+      "fixedValue": 0.08547746573759203,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "krev",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        0.9375,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_kG_coarse_lower_03",
+      "profile": "kG",
+      "fixedValue": 0.07242394438757038,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "krev",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        0.9375,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_kG_coarse_lower_04",
+      "profile": "kG",
+      "fixedValue": 0.052843662362537895,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "krev",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        0.9375,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_kG_coarse_upper_01",
+      "profile": "kG",
+      "fixedValue": 0.19050422641260284,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "krev",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        0.9375,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_kG_coarse_upper_02",
+      "profile": "kG",
+      "fixedValue": 0.380977465737592,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "krev",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        0.9375,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_kG_refine_upper_01",
+      "profile": "kG",
+      "fixedValue": 0.2523364019750542,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "krev",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        0.9375,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_kG_refine_upper_02",
+      "profile": "kG",
+      "fixedValue": 0.22885167077646756,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "krev",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0,
+        10,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        0.9375,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_tinf_coarse_lower_01",
+      "profile": "tinf",
+      "fixedValue": 36.8665478773439,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "krev",
+        "kG",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0,
+        0.03,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        0.9375,
+        2,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_tinf_coarse_lower_02",
+      "profile": "tinf",
+      "fixedValue": 34.03849020604454,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "krev",
+        "kG",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0,
+        0.03,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        0.9375,
+        2,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_tinf_coarse_lower_03",
+      "profile": "tinf",
+      "fixedValue": 28.382374863445825,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "krev",
+        "kG",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0,
+        0.03,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        0.9375,
+        2,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_tinf_refine_lower_01",
+      "profile": "tinf",
+      "fixedValue": 33.44770733496745,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "krev",
+        "kG",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0,
+        0.03,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        0.9375,
+        2,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_tinf_refine_lower_02",
+      "profile": "tinf",
+      "fixedValue": 32.941174087815284,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "krev",
+        "kG",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0,
+        0.03,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        0.9375,
+        2,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_tinf_coarse_upper_01",
+      "profile": "tinf",
+      "fixedValue": 39.3665478773439,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "krev",
+        "kG",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0,
+        0.03,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        0.9375,
+        2,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_tinf_coarse_upper_02",
+      "profile": "tinf",
+      "fixedValue": 41.53849020604454,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "krev",
+        "kG",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0,
+        0.03,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        0.9375,
+        2,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_tinf_coarse_upper_03",
+      "profile": "tinf",
+      "fixedValue": 45.882374863445825,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "krev",
+        "kG",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0,
+        0.03,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        0.9375,
+        2,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_tinf_refine_upper_01",
+      "profile": "tinf",
+      "fixedValue": 45.248691551383104,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "krev",
+        "kG",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0,
+        0.03,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        0.9375,
+        2,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_tinf_refine_upper_02",
+      "profile": "tinf",
+      "fixedValue": 44.86178134804335,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "krev",
+        "kG",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0,
+        0.03,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        0.9375,
+        2,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v7_tinf_refine_upper_03",
+      "profile": "tinf",
+      "fixedValue": 44.52945223384347,
+      "stage": "v7",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "krev",
+        "kG",
+        "Ai"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0,
+        0.03,
+        0
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        0.9375,
+        2,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "v8_Ai_CS_S04v8_Ai_lower_crossing_final",
+      "profile": "Ai",
+      "fixedValue": 0.06336222068685864,
+      "stage": "v8",
+      "category": "COMPLETED_NATIVE_PROFILE_SEARCH",
+      "map": "native",
+      "names": [
+        "Kd",
+        "kb",
+        "krev",
+        "kG",
+        "tinf"
+      ],
+      "lb": [
+        0,
+        0.255,
+        0,
+        0.03,
+        10
+      ],
+      "ub": [
+        0.06,
+        6.25,
+        0.9375,
+        2,
+        60
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "iter",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 20260818,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "PL_R1_Kd_CS_KD_0200",
+      "profile": "Kd",
+      "fixedValue": 0.2,
+      "stage": "PL_R1",
+      "category": "SUPPORT_DIAGNOSTIC",
+      "map": "transformed",
+      "names": [
+        "kSigma",
+        "Fdir",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0.05,
+        0.85,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        6.25,
+        1,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 200,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026089871,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    },
+    {
+      "id": "PL_R1_1_Kd_CS_KD_0200_CL",
+      "profile": "Kd",
+      "fixedValue": 0.2,
+      "stage": "PL_R1_1",
+      "category": "SUPPORT_DIAGNOSTIC",
+      "map": "transformed",
+      "names": [
+        "kSigma",
+        "Fdir",
+        "kG",
+        "tinf",
+        "Ai"
+      ],
+      "lb": [
+        0.05,
+        0.85,
+        0.03,
+        10,
+        0
+      ],
+      "ub": [
+        6.25,
+        1,
+        2,
+        60,
+        0.3
+      ],
+      "config": {
+        "allowNonstandardBudget": true,
+        "checkpointPolicy": "always",
+        "display": "off",
+        "invalidObjectivePenalty": 1000000000000,
+        "maxFunctionEvaluations": 400,
+        "minSurrogatePoints": 8,
+        "nvar": 5,
+        "recheckAbsoluteTolerance": 0.0005,
+        "seed": 2026089949,
+        "solver": "surrogateopt",
+        "useParallel": false,
+        "useVectorized": false,
+        "validationMode": false,
+        "version": "JWPE_OPTIMIZATION_CORE_v1_0_1"
+      }
+    }
+  ]
+}

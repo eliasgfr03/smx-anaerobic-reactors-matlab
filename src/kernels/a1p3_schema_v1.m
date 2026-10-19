@@ -1,0 +1,33 @@
+function T = a1p3_schema_v1(action,varargin)
+%A1P3_SCHEMA_V1 Canonical response/score tables, including imported logicals.
+switch lower(string(action))
+    case "response"
+        reactor=string(varargin{1}); days=double(varargin{2}(:));
+        inlet=double(varargin{3}(:)); raw=double(varargin{4}(:)); cfg=varargin{5};
+        assert(isscalar(reactor) && any(reactor==["CS" "PF"]) && ...
+            isequal(days,cfg.data.local_days(:)) && numel(inlet)==17 && ...
+            numel(raw)==17 && all(isfinite([inlet;raw])) && all(inlet>0) && ...
+            all(raw>=0),'JWPE:A1P3:Response','Invalid holdout response layer.');
+        zero=raw==0; analysis=raw; analysis(zero)=cfg.data.LOD_ug_L;
+        cells=(3:19).'; outlet="K"+string(cells);
+        if reactor=="PF", outlet="M"+string(cells); end
+        T=table(repmat(reactor,17,1),repmat("OFL",17,1), ...
+            repmat("III",17,1),days,cfg.data.global_days(:),inlet,raw,analysis, ...
+            zero,repmat(string(cfg.data.units),17,1),"I"+string(cells), ...
+            "J"+string(cells),outlet,'VariableNames',{'Reactor','Compound', ...
+            'Phase','LocalDay','Time_d','Cin_ug_L','RawCout_ug_L','Cout_ug_L', ...
+            'RawZeroMappedToLOD','Units','DayCell','InletCell','OutletCell'});
+    case "canonical"
+        T=varargin{1}; required={'Reactor','Compound','Phase','LocalDay','Time_d', ...
+            'Cin_ug_L','RawCout_ug_L','Cout_ug_L','RawZeroMappedToLOD','Units'};
+        assert(all(ismember(required,T.Properties.VariableNames)), ...
+            'JWPE:A1P3:Schema','Required table variables are absent.');
+        T.Reactor=string(T.Reactor); T.Compound=string(T.Compound);
+        T.Phase=string(T.Phase); T.Units=string(T.Units);
+        T.RawZeroMappedToLOD=ev1_io_v1('logical',T.RawZeroMappedToLOD);
+        numeric={'LocalDay','Time_d','Cin_ug_L','RawCout_ug_L','Cout_ug_L'};
+        for i=1:numel(numeric), T.(numeric{i})=double(T.(numeric{i})); end
+    otherwise
+        error('JWPE:A1P3:Schema','Unknown schema action.');
+end
+end
